@@ -1,0 +1,517 @@
+[
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.GetLocIDAndBoothController",
+    "Method": "GetLocIDAndBooth",
+    "RelativePath": "api/GetLocIDAndBooth/{acName}/{villageName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "acName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "villageName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.LocationController",
+    "Method": "GetLocationInfo",
+    "RelativePath": "api/Location/{loc_name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loc_name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.SocialMediaActivistController",
+    "Method": "GetSocialMediaActivist",
+    "RelativePath": "api/SocialMediaActivist/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetAllLocs",
+    "RelativePath": "api/Status/all-locs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetAllLocsById",
+    "RelativePath": "api/Status/all-locs/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetAreaDevelop",
+    "RelativePath": "api/Status/area-develop/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetStatusBoothAgent",
+    "RelativePath": "api/Status/booth-agent/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetDominatesData",
+    "RelativePath": "api/Status/community-dominates/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetCommunityPeople",
+    "RelativePath": "api/Status/community-people/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetContactPerson",
+    "RelativePath": "api/Status/contact-person/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetDevelopmentWork",
+    "RelativePath": "api/Status/development-work/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetGovtOfficialsWorking",
+    "RelativePath": "api/Status/govt-officials/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetImportantGroups",
+    "RelativePath": "api/Status/important-groups/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetLocalDemands",
+    "RelativePath": "api/Status/local-demands/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetLocalPeople",
+    "RelativePath": "api/Status/local-people/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetLocalShopKeepers",
+    "RelativePath": "api/Status/local-shop-keepers/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetMainWorkers",
+    "RelativePath": "api/Status/main-workers/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetPanchayatMembers",
+    "RelativePath": "api/Status/panchayat-members/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetPartyCondition",
+    "RelativePath": "api/Status/party-condition/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetPoliticalNote",
+    "RelativePath": "api/Status/political-note/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetResults",
+    "RelativePath": "api/Status/results/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusController",
+    "Method": "GetSocialMediaActivist",
+    "RelativePath": "api/Status/social-media-activist/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusAreaDevelopController",
+    "Method": "GetAreaDevelop",
+    "RelativePath": "api/StatusAreaDevelop/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusBoothAgentController",
+    "Method": "GetStatusBoothAgent",
+    "RelativePath": "api/StatusBoothAgent/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusCommunityPeopleController",
+    "Method": "GetCommunityProple",
+    "RelativePath": "api/StatusCommunityPeople/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusContactPersonController",
+    "Method": "GetContactPerson",
+    "RelativePath": "api/StatusContactPerson/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusGetAllLocsController",
+    "Method": "GetAllLocs",
+    "RelativePath": "api/StatusGetAllLocs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusGetAllLocsController",
+    "Method": "GetAllLocsById",
+    "RelativePath": "api/StatusGetAllLocs/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusLocalPeopleController",
+    "Method": "GetLocalPeople",
+    "RelativePath": "api/StatusLocalPeople/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.StatusLocalShopKeeperController",
+    "Method": "GetLocalShopKeeper",
+    "RelativePath": "api/StatusLocalShopKeeper/{Loc_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Loc_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.TwilioController",
+    "Method": "ReceiveMessage",
+    "RelativePath": "api/Twilio/receive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "From",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dharmendraPradhan.Controllers.TwilioController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Twilio/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "to",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
